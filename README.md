@@ -3,10 +3,6 @@ kafka-net
 
 Native C# client for Apache Kafka.  
 
-License
------------
-Copyright 2014, James Roland under Apache License, V2.0. See LICENSE file.
-
 Summary
 -----------
 This project is a .NET implementation of the [Apache Kafka] protocol.  The wire protocol portion is based on the [kafka-python] library writen by [David Arthur] and the general class layout attempts to follow a similar pattern as his project.  To that end, this project builds up from the low level KafkaConnection object for handling async requests to/from the kafka server, all the way up to a higher level Producer/Consumer classes.
