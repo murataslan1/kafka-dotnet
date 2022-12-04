@@ -1,4 +1,4 @@
-kafka-net
+kafka-dotnet
 =========
 
 Native C# client for Apache Kafka.  
